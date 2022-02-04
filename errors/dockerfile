@@ -1,0 +1,7 @@
+FROM alpine
+
+ENV NAME = "Maxim"
+
+COPY ./ ./
+
+CMD [ "./goError" ]

@@ -1,0 +1,5 @@
+FROM alpine
+
+COPY z1.go ./z1
+
+CMD ["./Example"]
